@@ -164,6 +164,17 @@ If a check fails, read the error carefully, fix the issue, re-run `check`, and s
 - **Auth errors (401):** your `makefun` API key may have expired — run `makefun login` again.
 - **Rate limits / quota:** wait for the indicated retry time or next daily window.
 
+## Common pitfalls (setup checklist)
+
+Most failed submissions come from a few small setup mistakes. Check these before you spend a submission attempt:
+
+- **Wrong wallet network:** rewards are USDC on **Solana**. Make sure the address you link is a Solana address (Phantom's default), not an EVM one.
+- **Repo not public:** make.fun clones your repo at the pinned commit, so a private repo will fail the check.
+- **License header missing:** put `SPDX-License-Identifier: MIT` at the top of your `LICENSE` file so the OSI-license check can detect it.
+- **Placeholders left in:** replace `<you>` / `<your-repo>` and the example referral link with your own values.
+- **Screenshot from the wrong place:** `screenshot.png` should show the **rendered** README on the repo page, not a text editor.
+- **Expired API key:** `makefun login` keys are time-limited — re-run it if you hit 401 errors.
+
 ## Want to go further?
 
 - Browse open bounties at **https://make.fun**
