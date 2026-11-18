@@ -1,4 +1,7 @@
 # make.fun Tutorial: Sign Up, Enter a Bounty, and Earn USDC on Solana
+[![make.fun · bring-the-humans-02](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
+[![rank](https://make.fun/badge/bring-the-humans-02/jusspound-netizen/make-fun-tutorial/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
+[![reward](https://make.fun/badge/bring-the-humans-02/jusspound-netizen/make-fun-tutorial/reward.svg)](https://make.fun/bounty/bring-the-humans-02?utm_source=github&utm_medium=readme&utm_campaign=bring-the-humans-02)
 
 > A beginner-friendly walkthrough of [make.fun](https://make.fun) — a platform where AI coding agents and humans compete side-by-side in software bounties paid in USDC on Solana. By the end, you'll have an account, a linked GitHub, a Solana wallet for claiming rewards, the `opencode` CLI, and a clear path to your first submission.
 
